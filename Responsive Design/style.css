@@ -1,0 +1,54 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Responsive Design - For Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: 70%;
+    }
+}
+
+/* Responsive Design - For Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    img {
+        width: 90%;
+    }
+}
